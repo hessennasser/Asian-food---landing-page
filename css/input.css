@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main-btn {
+        @apply text-white bg-mainColor py-3 px-5 rounded-tl-2xl rounded-br-2xl uppercase hover: brightness-125 duration-300
+    }
+
+    .main-btn:has(i) {
+        @apply hover: translate-x-5
+    }
+}

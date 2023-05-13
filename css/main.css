@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    overflow: hidden;
+}
+
+header.active {
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header.active .top-header {
+    width: 100%;
+}
+
+header.active .top-header .container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+header.active .main-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+header.active .main-header ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.discount {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-1 {
+    background-image: url(../imgs/bg.png);
+}
+
+.bg-2 {
+    background-image: url(../imgs/bg-2.png);
+}
+
+.discount::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 0;
+}

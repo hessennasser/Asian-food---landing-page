@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Food - Landing Page</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/d633f21f4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- 
+        #Header
+    -->
+
+    <header class="w-full md:h-[135px] sticky top-0 shadow-xl z-[1000]">
+        <div class="top-header bg-mainColor text-white ">
+            <div class="container py-2 w-full md:grid md:grid-cols-4">
+                <div class=" top-0 right-0 text-white w-full flex justify-between items-center">
+                    <img class="w-20" src="imgs/Logo.png" alt="logo">
+                    <div class="menu-icon text-3xl cursor-pointer md:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center justify-between w-full md:col-span-3">
+                    <div class="relative w-fit">
+                        <input
+                            class="bg-transparent border-b-[1px] border-white py-1 focus:outline-none placeholder:text-white"
+                            placeholder="Search here" type="search">
+                        <i class="fa-solid fa-magnifying-glass absolute right-0 top-2"></i>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <span class="cursor-pointer hover:underline">Register / Login</span>
+                        <i class="fa-regular fa-heart cursor-pointer"></i>
+                        <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header hidden md:block py-3 bg-white">
+            <ul class="flex items-center justify-center gap-5">
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200" href="#">home</a>
+                </li>
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200" href="#">about
+                        us</a></li>
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200"
+                        href="#">services</a></li>
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200"
+                        href="#">pricing</a></li>
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200" href="#">blog</a>
+                </li>
+                <li><a class="uppercase text-mainColor hover:text-black hover:underline duration-200"
+                        href="#">contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 
+        #Home
+    -->
+    <section class="home py-10 md:h-[calc(100vh-135px)] bg-[#f3f3f3]">
+        <div
+            class="h-full container flex items-center justify-center flex-col-reverse md:flex-row md:justify-between gap-10">
+            <div class="flex flex-col gap-3 text-mainColor" data-aos="fade-right">
+                <div class="border-mainColor border-b-4 w-fit">
+                    <h2 class="font-bold text-4xl">American Food</h2>
+                    <h4 class="text-2xl font-medium">The Best Taste Food</h4>
+                </div>
+                <p>Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                    injected humour, or
+                    randomised words</p>
+                <div class="flex items-center gap-2 3">
+                    <button class="main-btn">order now</button>
+                    <button class="main-btn">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="flex" data-aos="fade-left">
+                <img class="xg:w-2/3" src="./imgs/home.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #About Us
+    -->
+    <section class="about py-10">
+        <div class="container">
+            <div class="main-title text-center relative mb-32" data-aos="fade-up">
+                <div class="relative">
+                    <span
+                        class="uppercase text-[2.5rem] md:text-[5rem] text-mainColor opacity-20 absolute w-full left-1/2 -translate-x-1/2">about
+                        us</span>
+                    <h2
+                        class="uppercase absolute left-1/2 -translate-x-1/2 top-4 md:top-10 text-2xl md:text-3xl font-bold text-mainColor">
+                        about
+                        us</h2>
+                </div>
+                <p class="relative top-18 top-24">
+                    Lorem Ipsum available, but the majority have suffered <br> some form by injected humour
+                </p>
+            </div>
+            <div class="flex flex-col gap-5">
+                <div class="grid md:grid-cols-2 gap-5 justify-between">
+                    <div class="text text-mainColor flex flex-col gap-5" data-aos="fade-right">
+                        <h3 class="text-3xl">
+                            Let food be thy medicine <br> medicine be thy food.
+                        </h3>
+                        <div>
+                            <p class=" leading-6 mb-2">
+                                Lorem Ipsum available, but the majority have suffered alteration in some form by
+                                injected
+                                humour randomise words which don't look even slightly believable. If you are going to
+                                use a
+                                passage
+                            </p>
+                            <p class=" leading-6">
+                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+                                the middle of text.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 3">
+                            <button class="main-btn">order now</button>
+                            <button class="main-btn">
+                                <i class="fa-solid fa-arrow-left-long"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img relative grid justify-items-center" data-aos="flip-left">
+                        <img class="w-full lg:w-2/3 scale-90 cursor-pointer hover:brightness-110 hover:-translate-y-4 duration-300"
+                            src="./imgs/about-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-5 justify-between">
+                    <div class="img relative grid justify-items-start" data-aos="flip-left">
+                        <img class="w-full lg:w-2/3 scale-90 cursor-pointer hover:brightness-110 hover:-translate-y-4 duration-300"
+                            src="./imgs/about-2.png" alt="">
+                    </div>
+                    <div class="text text-mainColor flex flex-col gap-5" data-aos="fade-right">
+                        <h3 class="text-3xl">
+                            Let food be thy medicine <br> medicine be thy food.
+                        </h3>
+                        <div>
+                            <p class=" leading-6 mb-2">
+                                Lorem Ipsum available, but the majority have suffered alteration in some form by
+                                injected
+                                humour randomise words which don't look even slightly believable. If you are going to
+                                use a
+                                passage
+                            </p>
+                            <p class=" leading-6">
+                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
+                                the middle of text.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2 3">
+                            <button class="main-btn">order now</button>
+                            <button class="main-btn">
+                                <i class="fa-solid fa-arrow-left-long"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Services
+    -->
+    <section class="services py-10">
+        <div class="container">
+            <div class="main-title text-center relative mb-32" data-aos="fade-up">
+                <div class="relative">
+                    <span
+                        class="uppercase text-[2.5rem] md:text-[5rem] text-mainColor opacity-20 absolute w-full left-1/2 -translate-x-1/2">Services</span>
+                    <h2
+                        class="uppercase absolute left-1/2 -translate-x-1/2 top-4 md:top-10 text-2xl md:text-3xl font-bold text-mainColor">
+                        Services</h2>
+                </div>
+                <p class="relative top-18 top-24">
+                    Lorem Ipsum available, but the majority have suffered <br> some form by injected humour
+                </p>
+            </div>
+            <div class="grid gap-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
+                    <div class="text flex flex-col gap-3 items-start text-mainColor col-span-2" data-aos="fade-right">
+                        <div class="w-full flex justify-between">
+                            <h2 class="font-bold text-2xl">Peanut butter</h2>
+                            <span class="font-bold text-2xl">$45</span>
+                        </div>
+                        <p>
+                            Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                            humour, or randomised words which don't look even slightly believable. If you are going to
+                            use a passage of Lorem Ipsum, you need to be sure
+                        </p>
+                        <button class="main-btn">buy now</button>
+                    </div>
+                    <div class="img group" data-aos="zoom-in-up">
+                        <img src="./imgs/services-1.png" alt="" class="group-hover:brightness-75">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
+                    <div class="text flex flex-col gap-3 items-start text-mainColor col-span-2" data-aos="fade-right">
+                        <div class="w-full flex justify-between">
+                            <h2 class="font-bold text-2xl">Pumpkin pie</h2>
+                            <span class="font-bold text-2xl">$35</span>
+                        </div>
+                        <p>
+                            Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                            humour, or randomised words which don't look even slightly believable. If you are going to
+                            use a passage of Lorem Ipsum, you need to be sure
+                        </p>
+                        <button class="main-btn">buy now</button>
+                    </div>
+                    <div class="img group" data-aos="zoom-in-up">
+                        <img src="./imgs/services-2.png" alt="" class="group-hover:brightness-75">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-5 justify-items-center">
+                    <div class="text flex flex-col gap-3 items-start text-mainColor col-span-2" data-aos="fade-right">
+                        <div class="w-full flex justify-between">
+                            <h2 class="font-bold text-2xl">Jambalaya</h2>
+                            <span class="font-bold text-2xl">$50</span>
+                        </div>
+                        <p>
+                            Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
+                            humour, or randomised words which don't look even slightly believable. If you are going to
+                            use a passage of Lorem Ipsum, you need to be sure
+                        </p>
+                        <button class="main-btn">buy now</button>
+                    </div>
+                    <div class="img group" data-aos="zoom-in-up">
+                        <img src="./imgs/services-3.png" alt="" class="group-hover:brightness-75">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount bg-1 w-full h-auto">
+        <div class="container relative z-10 py-10 text-mainColor grid md:grid-cols-2 brightness-150"
+            data-aos="fade-left">
+            <div class="flex flex-col gap-3 items-start">
+                <p class="font-bold text-white">Special</p>
+                <h2 class="text-3xl font-semibold">SALE 50% DISCOUNT</h2>
+                <h3 class="text-2xl tracking-[5px]">ALL FOOD PRODUCTS</h3>
+                <p class=" text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id, ullam laborum culpa earum illo
+                    doloremque doloribus esse ut minus.
+                </p>
+                <button class="main-btn">discover now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Pricing
+    -->
+
+    <section class="pricing py-10">
+        <div class="container">
+            <div class="main-title text-center relative mb-32" data-aos="fade-up">
+                <div class="relative">
+                    <span
+                        class="uppercase text-[2.5rem] md:text-[5rem] text-mainColor opacity-20 absolute w-full left-1/2 -translate-x-1/2">Pricing</span>
+                    <h2
+                        class="uppercase absolute left-1/2 -translate-x-1/2 top-4 md:top-10 text-2xl md:text-3xl font-bold text-mainColor">
+                        Pricing</h2>
+                </div>
+                <p class="relative top-18 top-24">
+                    Lorem Ipsum available, but the majority have suffered <br> some form by injected humour
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-5 justify-items-center">
+                <div class="card hover:translate-y-5 duration-300 text-center w-full" data-aos="fade-right"
+                    data-aos-delay="0">
+                    <div class="card-header bg-[#608b14] text-2xl py-5 text-white">
+                        <p>Basic</p>
+                        <p>$35</p>
+                    </div>
+                    <div class="bg-gray-200 px-5 py-10 flex flex-col items-center justify-center gap-5 rounded-b-2xl">
+                        <ul class="flex flex-col items-center gap-2">
+                            <li>6 Pis Chiken</li>
+                            <li>3 Pis Beef Chiken</li>
+                            <li>2 Pis Burger</li>
+                        </ul>
+                        <button class="main-btn">discover now</button>
+                    </div>
+                </div>
+                <div class="card hover:-translate-y-5 duration-300 text-center w-full translate-y-5" data-aos="fade-up"
+                    data-aos-delay="500">
+                    <div class="card-header bg-[#608b14] text-2xl py-5 text-white relative overflow-hidden">
+                        <p>Stander</p>
+                        <p>$50</p>
+                    </div>
+                    <div class="bg-gray-200 px-5 py-10 flex flex-col items-center justify-center gap-5 rounded-b-2xl">
+                        <ul class="flex flex-col items-center gap-2">
+                            <li>6 Pis Chiken</li>
+                            <li>3 Pis Beef Chiken</li>
+                            <li>2 Pis Burger</li>
+                        </ul>
+                        <button class="main-btn">discover now</button>
+                    </div>
+                </div>
+                <div class="card hover:translate-y-5 duration-300 text-center w-full" data-aos="fade-left"
+                    data-aos-delay="1000">
+                    <div class="card-header bg-[#608b14] text-2xl py-5 text-white">
+                        <p>Premium</p>
+                        <p>$45</p>
+                    </div>
+                    <div class="bg-gray-200 px-5 py-10 flex flex-col items-center justify-center gap-5 rounded-b-2xl">
+                        <ul class="flex flex-col items-center gap-2">
+                            <li>6 Pis Chiken</li>
+                            <li>3 Pis Beef Chiken</li>
+                            <li>2 Pis Burger</li>
+                        </ul>
+                        <button class="main-btn">discover now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discount bg-2 w-full h-auto">
+        <div class="container relative z-10 py-10 text-mainColor grid md:grid-cols-2 brightness-150"
+            data-aos="fade-right">
+            <div></div>
+            <div class="flex flex-col gap-3 items-end">
+                <p class="font-bold text-white">Special</p>
+                <h2 class="text-3xl font-semibold text-end">SALE 50% DISCOUNT</h2>
+                <h3 class="text-2xl tracking-[5px] text-end">ALL FOOD PRODUCTS</h3>
+                <p class=" text-gray-400 text-end">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus id, ullam laborum culpa earum illo
+                    doloremque doloribus esse ut minus.
+                </p>
+                <button class="main-btn">discover now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Blog
+    -->
+
+    <section class="blog py-10">
+        <div class="container">
+            <div class="main-title text-center relative mb-32" data-aos="fade-up">
+                <div class="relative">
+                    <span
+                        class="uppercase text-[2.5rem] md:text-[5rem] text-mainColor opacity-20 absolute w-full left-1/2 -translate-x-1/2">Blog</span>
+                    <h2
+                        class="uppercase absolute left-1/2 -translate-x-1/2 top-4 md:top-10 text-2xl md:text-3xl font-bold text-mainColor">
+                        Blog</h2>
+                </div>
+                <p class="relative top-18 top-24">
+                    Lorem Ipsum available, but the majority have suffered <br> some form by injected humour
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+                <div class=" rounded-lg overflow-hidden p-2 relative group flex items-center justify-center"
+                    data-aos="fade-right" data-aos-delay="0">
+                    <img src="./imgs/blog-1.png" alt="blog">
+                    <div
+                        class="info flex flex-col items-start justify-center w-full p-2 text-mainColor gap-3 absolute h-full bg-gray-100 bottom-full group-hover:bottom-0 duration-300">
+                        <h2 class="font-bold text-2xl">Eat food. Not too much mostly plants.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptates ratione, officia
+                            dolores iure illum eos, distinctio molestias quasi animi excepturi consequuntur. Ipsam
+                            dolores numquam repellendus dignissimos, sapiente alias atque?</p>
+                        <button class="main-btn">read more</button>
+                    </div>
+                </div>
+                <div class=" rounded-lg overflow-hidden p-2 relative group flex items-center justify-center"
+                    data-aos="fade-up" data-aos-delay="500">
+                    <img src="./imgs/blog-2.png" alt="blog">
+                    <div
+                        class="info flex flex-col items-start justify-center w-full p-2 text-mainColor gap-3 absolute h-full bg-gray-100 bottom-full group-hover:bottom-0 duration-300">
+                        <h2 class="font-bold text-2xl">Eat food. Not too much mostly plants.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptates ratione, officia
+                            dolores iure illum eos, distinctio molestias quasi animi excepturi consequuntur. Ipsam
+                            dolores numquam repellendus dignissimos, sapiente alias atque?</p>
+                        <button class="main-btn">read more</button>
+                    </div>
+                </div>
+                <div class=" rounded-lg overflow-hidden p-2 relative group flex items-center justify-center"
+                    data-aos="fade-left" data-aos-delay="1000">
+                    <img src="./imgs/blog-3.png" alt="blog">
+                    <div
+                        class="info flex flex-col items-start justify-center w-full p-2 text-mainColor gap-3 absolute h-full bg-gray-100 bottom-full group-hover:bottom-0 duration-300">
+                        <h2 class="font-bold text-2xl">Eat food. Not too much mostly plants.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptates ratione, officia
+                            dolores iure illum eos, distinctio molestias quasi animi excepturi consequuntur. Ipsam
+                            dolores numquam repellendus dignissimos, sapiente alias atque?</p>
+                        <button class="main-btn">read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Footer
+    -->
+
+    <footer class="footer bg-mainColor py-10">
+        <div class="container relative">
+            <img class="absolute left-5 top-10 md:bottom-1/3 w-12" src="./imgs/shape-1.png" alt="shape">
+            <img class="absolute right-5 top-10 w-12" src="./imgs/shape-2.png" alt="shape">
+            <div class="flex flex-col gap-3 items-center justify-center text-white">
+                <img src="./imgs/logo.png" class="w-24" alt="logo">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold">American Food</h2>
+                    <h4 class="text-lg">The Best Taste Food</h4>
+                </div>
+                <div class="social flex gap-2">
+                    <a class="hover:text-gray-400" href="#">
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                    </a>
+                    <a class="hover:text-gray-400" href="#">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </a>
+                    <a class="hover:text-gray-400" href="#">
+                        <i class="fa-brands fa-twitter fa-lg"></i>
+                    </a>
+                    <a class="hover:text-gray-400" href="#">
+                        <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    </a>
+                </div>
+                <p>
+                    Copyright © 2023 <a class="underline" href="https://sm8rtdev.online/">Hessen Nasser</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+</body>
+
+</html>
